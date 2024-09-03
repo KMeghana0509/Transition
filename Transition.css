@@ -1,0 +1,110 @@
+body{
+    background-color: rgb(166, 166, 240);
+}
+.a{
+    position: absolute;
+    z-index: 2;
+}
+.aa{
+    position: fixed;
+    background-color: black;
+    width: 99%;
+    height: 90px;
+    top: 0;
+    left: 0;
+}
+.aaa{
+    font-size: 40px;
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+.b{
+    margin-top: 100px;
+    border: 1px solid black;
+    padding: 30px;
+    width: 30%;
+    height: 230px;
+    margin-left: 50px;
+    transition-delay: 1s;
+    transition-duration: 4s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+.b:hover { 
+    transform: rotate(30deg);
+    background-color: gray;
+}
+.bb img{
+    width: 250px;
+    transition-delay: 1s;
+    transition-duration: 4s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+.bb:hover img{ 
+    background-color: gray;
+    translate: 100px;
+    border-radius: 50%;
+}
+.c{
+    border: 1px solid black;
+    padding: 30px;
+    position: absolute;
+    right: 70px;
+    bottom: 195px;
+    width: 45%;
+    height: 230px;
+    transition-delay: 1s;
+    transition-duration: 4s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+.c:hover{
+    background-color: rgb(122, 224, 242);
+    transform: scale(1.5);
+}
+.cc img{
+    width: 150px;
+}
+.d{
+    border: 1px solid black;
+    width: 40%;
+    text-align: center;
+    padding: 30px;
+    margin-top: 33px;
+    transition-delay: 1s;
+    transition-duration: 2s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+.d:hover{
+    transform: skew(35deg);
+}
+.e{
+    border: 1px solid black;
+    padding: 30px;
+    width: 45%;
+    position: absolute;
+    right: 20px;
+    bottom: 85px;
+    transition-delay: 1s;
+    transition-duration: 2s;
+    transition-property: all;
+    transition-timing-function: ease-in-out;
+}
+.e:hover{
+    translate: 100px;
+    color: rgb(223, 81, 109);
+}
+.f{
+    text-align: center;
+    bottom: 0;
+    position: fixed;
+    background-color: black;
+    color: white;
+    width: 99%;
+    margin: 0;
+    padding: 20px;
+    bottom: 0;
+}
